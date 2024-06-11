@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.icon-container {
+    position: relative;
+    height: 50vh;
+  }
+  
+  .icon {
+    position: absolute;
+    transition: all 0.5s ease; 
+  }
+  
+  .top-left {
+    top: 0;
+    left: 0;
+  }
+  .top-right {
+    top: 0;
+    right: 0;
+  }
+  .top {
+    top: 0;
+  }
+  .bottom {
+    bottom: 0;
+  }
+  .bottom-right {
+    right: 0;
+    bottom: 0;
+  }
+  .bottom-left {
+    left: 0;
+    bottom: 0;
+  }
+
+  
